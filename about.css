@@ -1,0 +1,112 @@
+/* === Coffee Haven - About Us Page Style === */
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f3ef;
+  color: #214221;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #214221;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Layout */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #214221;;
+  border-left: 4px solid #d7ccc8;
+  padding-left: 10px;
+}
+
+/* Team Section */
+#team div {
+  background-color: #adc9b7;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+/* Form */
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+form button {
+  background-color: #214221;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #214221;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #214221;
+  color: #fff;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffe0b2;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
